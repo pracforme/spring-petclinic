@@ -16,7 +16,7 @@
 
   <properties>
 
-    <!-- Generic properties -->
+    <!-- Genericies -->
     <java.version>1.8</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -28,6 +28,10 @@
     <wro4j.version>1.8.0</wro4j.version>
 
     <cobertura.version>2.7</cobertura.version>
+      
+        <sonar.host.url>http://13.126.44.218:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>password</sonar.password>
 
   </properties>
 
